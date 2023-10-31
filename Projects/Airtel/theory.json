@@ -26,7 +26,7 @@
       {
         "id": 4,
         "type": "process",
-        "text": "Process 2",
+        "text": "Create Operation in API",  // New step: Create Operation in API
         "x": 250,
         "y": 250
       },
