@@ -1,0 +1,71 @@
+{
+  "flowchart": {
+    "title": "My Flowchart",
+    "nodes": [
+      {
+        "id": 1,
+        "type": "start",
+        "text": "Start",
+        "x": 50,
+        "y": 50
+      },
+      {
+        "id": 2,
+        "type": "process",
+        "text": "Process 1",
+        "x": 150,
+        "y": 100
+      },
+      {
+        "id": 3,
+        "type": "decision",
+        "text": "Decision 1",
+        "x": 150,
+        "y": 200
+      },
+      {
+        "id": 4,
+        "type": "process",
+        "text": "Process 2",
+        "x": 250,
+        "y": 250
+      },
+      {
+        "id": 5,
+        "type": "end",
+        "text": "End",
+        "x": 350,
+        "y": 350
+      }
+    ],
+    "edges": [
+      {
+        "id": 1,
+        "from": 1,
+        "to": 2
+      },
+      {
+        "id": 2,
+        "from": 2,
+        "to": 3
+      },
+      {
+        "id": 3,
+        "from": 3,
+        "to": 4,
+        "label": "Yes"
+      },
+      {
+        "id": 4,
+        "from": 3,
+        "to": 5,
+        "label": "No"
+      },
+      {
+        "id": 5,
+        "from": 4,
+        "to": 2
+      }
+    ]
+  }
+}
